@@ -1,12 +1,21 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "tailwindCSS.experimental.classRegex": ["clsx\\(([^)]*)\\)", "twMerge\\(([^)]*)\\)"],
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "tailwindCSS.experimental.classRegex": [
+    "clsx\\(([^)]*)\\)",
+    "twMerge\\(([^)]*)\\)"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
-  "prettier.semi": false
+  "prettier.semi": false,
+  "css.lint.unknownAtRules": "ignore",
 }
