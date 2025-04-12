@@ -1,11 +1,11 @@
 export default function AboutPage() {
   return (
-    <section className="space-y-4">
-      <h1 className="text-3xl font-bold tracking-tight">About Me</h1>
-      <p className="text-gray-600 dark:text-gray-300 max-w-2xl leading-relaxed">
-        I'm a software engineer passionate about building beautiful, accessible web experiences. I
-        specialize in modern stacks like React, Tailwind CSS, and Next.js - and I'm currently
-        exploring CMS integration and web performance optimization.
+    <section className="space-y-8 max-w-3xl">
+      <h1 className="text-4xl font-bold">About Me</h1>
+      <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
+        I'm a software engineer focused on building clean and user-friendly frontend experiences. I
+        enjoy working with React, TypeScript, Tailwind CSS, and exploring modern CMS tools like
+        Sanity.io.
       </p>
     </section>
   )
